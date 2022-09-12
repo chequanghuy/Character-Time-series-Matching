@@ -1,0 +1,17 @@
+imutils==0.5.4
+joblib==1.1.0
+matplotlib
+numpy
+oauthlib==3.2.0
+opencv-python==4.5.5.64
+packaging==21.3
+pandas
+scikit-learn
+scipy
+seaborn==0.11.2
+tdqm==0.0.1
+tensorboard==2.9.0
+thop==0.0.31.post2005241907
+torch==1.8.1
+torchvision==0.8.2
+tqdm==4.64.0
