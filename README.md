@@ -12,25 +12,22 @@ python3 evaluate.py
 
 ```python
 cd Vietnamese/
-python3 DETECTION.py
-```
-<div align=center>
-<img src='Vietnamese/Vietnamese_imgs/vn.jpg' width='600'>
-</div>
-
-### Character Recognition
-```python
-cd Vietnamese/
 python DETECTION.py --weights object.pt --imgsz 1280
 ```
 <div align=center>
-<img src='Vietnamese/Vietnamese_imgs/vn.jpg' width='600'>
+<img src='Vietnamese/imgs/vn.jpg' width='600'>
 </div>
+
+### Character Recognition
+
 
 cd Vietnamese/
 python DETECTION.py --weights char.pt --imgsz 128
 ```
 <div align=center>
-<img src='Vietnamese/Vietnamese_imgs/vn.jpg' width='600'>
+<img src='Vietnamese/imgs/plate1.jpg' width='600'>
 </div>
 
+<div align=center>
+<img src='Vietnamese/plate2.jpg' width='600'>
+</div>
