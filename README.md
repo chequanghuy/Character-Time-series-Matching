@@ -13,11 +13,12 @@ python3 evaluate.py
 ### Results
 
 <div align=center>
-<img src=img/table.jpg width='300'>
+<img src=img/table.jpg width='500'>
 </div>
 <div align=center>
-<img src=img/fig.jpg width='300'>
+<img src=img/fig.jpg width='500'>
 </div>
+
 ## Vietnamese:
 
 ### Object detection
