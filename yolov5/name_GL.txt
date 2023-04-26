@@ -1,8 +1,0 @@
-car
-truck
-plate
-longplate
-motorbike
-bus
-van
-bagac

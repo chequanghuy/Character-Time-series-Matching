@@ -42,7 +42,7 @@ def main():
             h,w,_=image.shape
             Ws.append(w)
             Hs.append(h)
-
+            image = imutils.rotate(image, math.degrees(alpha))
             detections,image=char_model.detect(image)
             if len(detections)==0:
                 continue
