@@ -1,4 +1,5 @@
 # Character-Time-series-Matching-For-Robust-License-Plate-Recognition
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/character-time-series-matching-for-robust/license-plate-recognition-on-ufpr-alpr)](https://paperswithcode.com/sota/license-plate-recognition-on-ufpr-alpr?p=character-time-series-matching-for-robust)
 ## Setup
 ```python
 pip install -r requirement.txt
@@ -41,6 +42,21 @@ python DETECTION.py --weights char.pt --imgsz 128
 <img src='Vietnamese/img/plate1.jpg' width='300'>
   <img src='Vietnamese/img/plate2.jpg' width='300'>
 </div>
+
+## Citation
+
+```
+@INPROCEEDINGS{9924897,
+  author={Quang, Huy Che and Thanh, Tung Do and Van, Cuong Truong},
+  booktitle={2022 International Conference on Multimedia Analysis and Pattern Recognition (MAPR)}, 
+  title={Character Time-series Matching For Robust License Plate Recognition}, 
+  year={2022},
+  volume={},
+  number={},
+  pages={1-6},
+  doi={10.1109/MAPR56351.2022.9924897}
+ }
+```
 
 ## Acknowledgement
 Our source code is inspired by:
