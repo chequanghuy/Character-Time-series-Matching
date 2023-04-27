@@ -42,4 +42,8 @@ python DETECTION.py --weights char.pt --imgsz 128
   <img src='Vietnamese/img/plate2.jpg' width='300'>
 </div>
 
+## Acknowledgement
+Our source code is inspired by:
+- [YoloV5](https://github.com/ultralytics/yolov5)
+
 
