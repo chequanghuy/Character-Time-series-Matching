@@ -1,5 +1,5 @@
 # Character-Time-series-Matching-For-Robust-License-Plate-Recognition
-[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/character-time-series-matching-for-robust/license-plate-recognition-on-ufpr-alpr)](https://paperswithcode.com/sota/license-plate-recognition-on-ufpr-alpr?p=character-time-series-matching-for-robust)
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/character-time-series-matching-for-robust-1/license-plate-recognition-on-ufpr-alpr)](https://paperswithcode.com/sota/license-plate-recognition-on-ufpr-alpr?p=character-time-series-matching-for-robust-1)
 ## Setup
 ```python
 pip install -r requirement.txt
