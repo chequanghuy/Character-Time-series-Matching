@@ -6,7 +6,7 @@ pip install -r requirement.txt
 ```
 ## UFPR-ALPR:
 
-Download 60 cropped tracks using YoloV5m: [test](https://drive.google.com/file/d/1k1AtPXq7nVQDYBUW3luVei2S0jzvXfKx/view?usp=share_link)
+Download 60 cropped tracks using YoloV5m: [test]([https://drive.google.com/file/d/1k1AtPXq7nVQDYBUW3luVei2S0jzvXfKx/view?usp=share_link](https://drive.google.com/file/d/1U429KxS6SvoOMGoAGw0yQaDlLmBrLFgE/view?usp=sharing))
 ```python
 python3 evaluate.py
 ```
