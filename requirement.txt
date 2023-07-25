@@ -1,7 +1,7 @@
 imutils==0.5.4
 joblib==1.1.0
 matplotlib
-numpy
+numpy==1.21
 oauthlib==3.2.0
 opencv-python==4.5.5.64
 packaging==21.3
