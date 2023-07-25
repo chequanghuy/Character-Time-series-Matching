@@ -13,7 +13,7 @@ import imutils
 
 
 def main():
-    path='./model_yolo6m/'
+    path='./test_tracks/'
     plate_folders = sorted(os.listdir(path))
     char_model=CharacterDetection()
     

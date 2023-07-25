@@ -2,7 +2,7 @@ import numpy as np
 import torch
 import os
 import sys
-sys.path.append(os.path.abspath('./yolov5'))
+sys.path.append(os.path.abspath('yolov5'))
 from yolov5.utils.general import non_max_suppression, scale_coords
 from typing import List
 from yolov5.models.experimental import attempt_load
@@ -14,7 +14,7 @@ class CharacterDetection:
         
         label_path = './character_name.txt'
 
-        self.char_model, names_ = self.load_model('./exp/weights/best.pt')
+        self.char_model, names_ = self.load_model('exp/weights/best.pt')
         self.names = [name.strip() for name in open(label_path).readlines()]
         self.size=128
 
@@ -85,7 +85,7 @@ class CharacterDetection:
             return thresh    
 
     def load_model(self,path, train = False):
-        model = attempt_load(path, map_location='cuda:0')  # load FP32 model
+        model = attempt_load(path, map_location='cuda')  # load FP32 model
         names = model.module.names if hasattr(model, 'module') else model.names  # get class names
         if train:
             model.train()
@@ -102,5 +102,5 @@ class CharacterDetection:
         return y
     
     
-    
+char = CharacterDetection()
 
